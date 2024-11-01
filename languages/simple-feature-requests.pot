@@ -1,0 +1,1118 @@
+# Copyright (C) 2024 Mindsize
+# This file is distributed under the same license as the Simple Feature Requests plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Simple Feature Requests 2.4.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/simple-feature-requests\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-31T13:17:23+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: simple-feature-requests\n"
+
+#. Plugin Name of the plugin
+#: simple-feature-requests.php
+#: inc/class-settings.php:35
+#: simple-feature-requests.php:262
+msgid "Simple Feature Requests"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: simple-feature-requests.php
+msgid "https://simplefeaturerequests.com"
+msgstr ""
+
+#. Description of the plugin
+#: simple-feature-requests.php
+msgid "Collect and manage user feedback using your existing WordPress website. Prioritize the product features important to you and your customers."
+msgstr ""
+
+#. Author of the plugin
+#: simple-feature-requests.php
+msgid "Mindsize"
+msgstr ""
+
+#. Author URI of the plugin
+#: simple-feature-requests.php
+msgid "https://mindsize.com"
+msgstr ""
+
+#: inc/class-admin-filters.php:90
+msgid "Show all Statuses"
+msgstr ""
+
+#: inc/class-ajax.php:51
+#: inc/class-ajax.php:104
+#: inc/class-ajax.php:160
+#: inc/class-ajax.php:224
+msgid "Nonce check failed."
+msgstr ""
+
+#: inc/class-ajax.php:59
+msgid "Simple Feature Requests: No post ID sent to AJAX."
+msgstr ""
+
+#: inc/class-ajax.php:66
+msgid "Simple Feature Requests: No post found for ID %d"
+msgstr ""
+
+#: inc/class-ajax.php:81
+#: inc/class-template-methods.php:161
+msgid "vote"
+msgid_plural "votes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-ajax.php:167
+msgid "No attachments found."
+msgstr ""
+
+#: inc/class-assets.php:52
+#: inc/class-assets.php:124
+#: inc/class-feature-request.php:335
+#: inc/class-post-types.php:427
+msgid "Vote"
+msgid_plural "Votes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-assets.php:53
+#: inc/class-assets.php:125
+msgid "Voting"
+msgstr ""
+
+#: inc/class-assets.php:54
+#: inc/class-assets.php:126
+#: inc/class-feature-request.php:335
+msgid "Voted"
+msgstr ""
+
+#: inc/class-assets.php:143
+msgid "Select Attachments"
+msgstr ""
+
+#: inc/class-assets.php:144
+msgid "Add Attachements"
+msgstr ""
+
+#: inc/class-core-licence.php:169
+msgid "Back to Settings"
+msgstr ""
+
+#: inc/class-core-licence.php:195
+msgid "Changelog"
+msgstr ""
+
+#: inc/class-core-licence.php:207
+msgid "Manage Licence &amp; Billing"
+msgstr ""
+
+#: inc/class-core-settings.php:254
+msgid "Dashboard"
+msgstr ""
+
+#: inc/class-core-settings.php:261
+msgid "License &amp; Account Settings"
+msgstr ""
+
+#: inc/class-core-settings.php:267
+msgid "License &amp; Billing"
+msgstr ""
+
+#: inc/class-core-settings.php:268
+msgid "Activate or sync your license, cancel your subscription, print invoices, and manage your account information."
+msgstr ""
+
+#: inc/class-core-settings.php:280
+#: inc/class-core-settings.php:286
+#: inc/class-settings.php:38
+msgid "Support"
+msgstr ""
+
+#: inc/class-core-settings.php:287
+msgid "Get premium support with a valid license."
+msgstr ""
+
+#: inc/class-core-settings.php:293
+#: inc/class-settings.php:37
+msgid "Documentation"
+msgstr ""
+
+#: inc/class-core-settings.php:294
+msgid "Read the plugin documentation."
+msgstr ""
+
+#: inc/class-factory.php:115
+msgid "A request with that title already exists."
+msgstr ""
+
+#: inc/class-factory.php:137
+msgid "There was an error adding your feature request. Please try again."
+msgstr ""
+
+#: inc/class-factory.php:157
+msgid "Thank you for your request."
+msgstr ""
+
+#: inc/class-factory.php:160
+msgid "It is currently %s."
+msgstr ""
+
+#: inc/class-feature-request.php:37
+msgid "This post is not a feature request."
+msgstr ""
+
+#: inc/class-notifications.php:192
+msgid "Feature request status changed to \"%s\""
+msgstr ""
+
+#: inc/class-notifications.php:234
+msgid "Feature request has been merged"
+msgstr ""
+
+#: inc/class-notifications.php:294
+#: inc/class-notifications.php:388
+msgid "Hello,"
+msgstr ""
+
+#: inc/class-notifications.php:295
+msgid "A new %s has been posted by \"%s\" to your site."
+msgstr ""
+
+#: inc/class-notifications.php:295
+msgid "feature request"
+msgstr ""
+
+#: inc/class-notifications.php:328
+#: inc/class-notifications.php:358
+msgid "Hello %s,"
+msgstr ""
+
+#: inc/class-notifications.php:329
+msgid "We thought you'd like to know the status of <a href=\"%s\">%s</a> has changed to <strong>%s</strong>."
+msgstr ""
+
+#: inc/class-notifications.php:359
+msgid "A feature request you voted on has been merged with a similar request in order to combine votes."
+msgstr ""
+
+#: inc/class-notifications.php:360
+msgid "<strong>%s</strong> has been merged into <a href=\"%s\">%s</a>. The request status is currently <strong>%s</strong>."
+msgstr ""
+
+#: inc/class-notifications.php:389
+msgid "Someone has posted a new comment on <a href=\"%s\">%s</a>:"
+msgstr ""
+
+#: inc/class-notifications.php:522
+msgid "New feature request comment"
+msgstr ""
+
+#: inc/class-notifications.php:549
+msgid "New feature request"
+msgstr ""
+
+#: inc/class-notifications.php:553
+msgid "From: %s <%s>"
+msgstr ""
+
+#: inc/class-notifications.php:554
+msgid "Reply-To: %s <%s>"
+msgstr ""
+
+#: inc/class-post-types.php:101
+msgid "Feature Requests"
+msgstr ""
+
+#: inc/class-post-types.php:102
+msgid "Feature Request"
+msgstr ""
+
+#: inc/class-post-types.php:103
+msgid "All Requests"
+msgstr ""
+
+#: inc/class-post-types.php:401
+#: inc/class-post-types.php:531
+#: inc/class-settings.php:700
+#: inc/class-settings.php:714
+#: inc/class-settings.php:728
+msgid "Author"
+msgstr ""
+
+#: inc/class-post-types.php:402
+#: inc/class-post-types.php:523
+#: inc/class-template-methods.php:51
+msgid "Status"
+msgstr ""
+
+#: inc/class-post-types.php:403
+#: inc/class-post-types.php:527
+#: inc/class-post-types.php:1462
+#: inc/class-settings.php:272
+msgid "Votes"
+msgstr ""
+
+#: inc/class-post-types.php:473
+#: inc/class-post-types.php:1145
+msgid "Categories"
+msgstr ""
+
+#: inc/class-post-types.php:483
+msgid "Information"
+msgstr ""
+
+#: inc/class-post-types.php:836
+msgid "%s"
+msgstr ""
+
+#: inc/class-post-types.php:845
+msgid "Edit %s"
+msgstr ""
+
+#: inc/class-post-types.php:854
+msgid "Manage %s"
+msgstr ""
+
+#: inc/class-post-types.php:997
+#: inc/class-post-types.php:1281
+#: inc/class-post-types.php:1302
+#: inc/class-post-types.php:1331
+msgid "Merge Requests"
+msgstr ""
+
+#: inc/class-post-types.php:1000
+msgid "Set Status to %s"
+msgstr ""
+
+#: inc/class-post-types.php:1098
+msgid "%s status updated."
+msgid_plural "%s statuses udpated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-post-types.php:1106
+msgid "Requests successfully merged."
+msgstr ""
+
+#: inc/class-post-types.php:1124
+#: inc/class-template-methods.php:407
+msgid "Category"
+msgstr ""
+
+#: inc/class-post-types.php:1130
+msgctxt "taxonomy general name"
+msgid "Categories"
+msgstr ""
+
+#: inc/class-post-types.php:1131
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+
+#: inc/class-post-types.php:1132
+msgid "Search Categories"
+msgstr ""
+
+#: inc/class-post-types.php:1133
+msgid "Popular Categories"
+msgstr ""
+
+#: inc/class-post-types.php:1134
+msgid "All Categories"
+msgstr ""
+
+#: inc/class-post-types.php:1137
+msgid "Edit Category"
+msgstr ""
+
+#: inc/class-post-types.php:1138
+msgid "Update Category"
+msgstr ""
+
+#: inc/class-post-types.php:1139
+msgid "Add New Category"
+msgstr ""
+
+#: inc/class-post-types.php:1140
+msgid "New Category Name"
+msgstr ""
+
+#: inc/class-post-types.php:1141
+msgid "Separate categories with commas"
+msgstr ""
+
+#: inc/class-post-types.php:1142
+msgid "Add or remove categories"
+msgstr ""
+
+#: inc/class-post-types.php:1143
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: inc/class-post-types.php:1144
+msgid "No categories found."
+msgstr ""
+
+#: inc/class-post-types.php:1168
+#: inc/class-template-methods.php:434
+msgid "Board"
+msgstr ""
+
+#: inc/class-post-types.php:1174
+msgctxt "taxonomy general name"
+msgid "Boards"
+msgstr ""
+
+#: inc/class-post-types.php:1175
+msgctxt "taxonomy singular name"
+msgid "Board"
+msgstr ""
+
+#: inc/class-post-types.php:1176
+msgid "Search Boards"
+msgstr ""
+
+#: inc/class-post-types.php:1177
+msgid "Popular Boards"
+msgstr ""
+
+#: inc/class-post-types.php:1178
+msgid "All Boards"
+msgstr ""
+
+#: inc/class-post-types.php:1181
+msgid "Edit Board"
+msgstr ""
+
+#: inc/class-post-types.php:1182
+msgid "Update Board"
+msgstr ""
+
+#: inc/class-post-types.php:1183
+msgid "Add New Board"
+msgstr ""
+
+#: inc/class-post-types.php:1184
+msgid "New Board Name"
+msgstr ""
+
+#: inc/class-post-types.php:1185
+msgid "Separate boards with commas"
+msgstr ""
+
+#: inc/class-post-types.php:1186
+msgid "Add or remove boards"
+msgstr ""
+
+#: inc/class-post-types.php:1187
+msgid "Choose from the most used boards"
+msgstr ""
+
+#: inc/class-post-types.php:1188
+msgid "No boards found."
+msgstr ""
+
+#: inc/class-post-types.php:1189
+msgid "Boards"
+msgstr ""
+
+#: inc/class-post-types.php:1304
+msgid "You have specified the following requests to be merged:"
+msgstr ""
+
+#: inc/class-post-types.php:1313
+msgid "%d vote"
+msgid_plural "%d votes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-post-types.php:1334
+msgid "Note: Merged requests will be trashed. The request authors of the merged requests will be notified of the merge via email (depending on your settings)."
+msgstr ""
+
+#: inc/class-post-types.php:1467
+msgid "Voters"
+msgstr ""
+
+#: inc/class-post-types.php:1468
+msgid "View All"
+msgstr ""
+
+#: inc/class-post-types.php:1490
+#: inc/class-template-methods.php:497
+msgid "Attachments"
+msgstr ""
+
+#: inc/class-post-types.php:1517
+msgid "Add attachments"
+msgstr ""
+
+#: inc/class-settings.php:34
+msgid "Add New"
+msgstr ""
+
+#: inc/class-settings.php:35
+msgid "Settings"
+msgstr ""
+
+#: inc/class-settings.php:91
+msgid "Submit Ticket"
+msgstr ""
+
+#: inc/class-settings.php:100
+msgid "Read Documentation"
+msgstr ""
+
+#: inc/class-settings.php:134
+msgid "General"
+msgstr ""
+
+#: inc/class-settings.php:140
+msgid "Setup"
+msgstr ""
+
+#: inc/class-settings.php:146
+msgid "Archive Page"
+msgstr ""
+
+#: inc/class-settings.php:147
+msgid "Select the archive page for your feature requests. Make sure you add the [simple-feature-requests] shortcode to the selected page."
+msgstr ""
+
+#: inc/class-settings.php:157
+#: inc/class-settings.php:613
+msgid "Single Request Title Tag"
+msgstr ""
+
+#: inc/class-settings.php:158
+#: inc/class-settings.php:614
+msgid "Tag to use for single request title."
+msgstr ""
+
+#: inc/class-settings.php:174
+#: inc/class-settings.php:630
+msgid "Archive Request Title Tag"
+msgstr ""
+
+#: inc/class-settings.php:175
+#: inc/class-settings.php:631
+msgid "Tag to use for request titles in the request archive."
+msgstr ""
+
+#: inc/class-settings.php:191
+#: inc/class-settings.php:646
+msgid "Hide Entry Title On Single Request View"
+msgstr ""
+
+#: inc/class-settings.php:192
+#: inc/class-settings.php:647
+msgid "Hide the default entry title output by your theme when viewing single feature requests."
+msgstr ""
+
+#: inc/class-settings.php:200
+msgid "Comments"
+msgstr ""
+
+#: inc/class-settings.php:206
+msgid "Enable Comments"
+msgstr ""
+
+#: inc/class-settings.php:207
+msgid "When enabled, users will be able to comment on feature requests."
+msgstr ""
+
+#: inc/class-settings.php:223
+#: inc/class-settings.php:772
+msgid "Allow Attachments"
+msgstr ""
+
+#: inc/class-settings.php:224
+#: inc/class-settings.php:773
+msgid "Allow users to upload attachments with their feature request"
+msgstr ""
+
+#: inc/class-settings.php:240
+msgid "Filters"
+msgstr ""
+
+#: inc/class-settings.php:241
+msgid "Add filters to search results for: Latest, Top, My Requests, Status, Board."
+msgstr ""
+
+#: inc/class-settings.php:250
+msgid "Notifications"
+msgstr ""
+
+#: inc/class-settings.php:256
+msgid "Email Contents"
+msgstr ""
+
+#: inc/class-settings.php:262
+msgid "Signature"
+msgstr ""
+
+#: inc/class-settings.php:263
+msgid "Used to sign off notification emails. You can use %site_name% and %site_url%."
+msgstr ""
+
+#: inc/class-settings.php:265
+msgid "Thank you"
+msgstr ""
+
+#: inc/class-settings.php:278
+msgid "Voting Settings"
+msgstr ""
+
+#: inc/class-settings.php:284
+msgid "Allow Own Vote Removal?"
+msgstr ""
+
+#: inc/class-settings.php:285
+msgid "Do you want to allow your users to remove their votes on their own requests?"
+msgstr ""
+
+#: inc/class-settings.php:291
+#: inc/class-settings.php:859
+msgid "Allow Guest Voting"
+msgstr ""
+
+#: inc/class-settings.php:292
+#: inc/class-settings.php:860
+msgid "Can votes be added without a logged in user account?"
+msgstr ""
+
+#: inc/class-settings.php:318
+#: inc/class-settings.php:558
+msgid "Default Request Status"
+msgstr ""
+
+#: inc/class-settings.php:319
+msgid "Set the default request status."
+msgstr ""
+
+#: inc/class-settings.php:326
+#: inc/class-settings.php:605
+msgid "Requests Per Page"
+msgstr ""
+
+#: inc/class-settings.php:327
+#: inc/class-settings.php:606
+msgid "How many requests to show per page in the archive."
+msgstr ""
+
+#: inc/class-settings.php:335
+#: inc/class-settings.php:655
+msgid "Admin"
+msgstr ""
+
+#: inc/class-settings.php:341
+msgid "Email Addresses"
+msgstr ""
+
+#: inc/class-settings.php:342
+msgid "Set the admin email addresses for sending and receiving email notifications."
+msgstr ""
+
+#: inc/class-settings.php:352
+#: inc/class-settings.php:679
+msgid "Events"
+msgstr ""
+
+#: inc/class-settings.php:358
+#: inc/class-settings.php:685
+msgid "New Request"
+msgstr ""
+
+#: inc/class-settings.php:359
+#: inc/class-settings.php:686
+msgid "Send a notification to the admin email address when a new request is added."
+msgstr ""
+
+#: inc/class-settings.php:365
+#: inc/class-settings.php:692
+msgid "Status Change"
+msgstr ""
+
+#: inc/class-settings.php:366
+#: inc/class-settings.php:693
+msgid "Send a notification when the request status changes."
+msgstr ""
+
+#: inc/class-settings.php:372
+#: inc/class-settings.php:706
+msgid "Merge Request"
+msgstr ""
+
+#: inc/class-settings.php:373
+#: inc/class-settings.php:707
+msgid "Send a notification to the author/voters of merged requests."
+msgstr ""
+
+#: inc/class-settings.php:379
+#: inc/class-settings.php:720
+msgid "Comment"
+msgstr ""
+
+#: inc/class-settings.php:380
+#: inc/class-settings.php:721
+msgid "Send a notification when a new comment is added to the request."
+msgstr ""
+
+#: inc/class-settings.php:390
+#: inc/class-settings.php:738
+msgid "Voting Limits"
+msgstr ""
+
+#: inc/class-settings.php:396
+#: inc/class-settings.php:744
+msgid "Votes Limit"
+msgstr ""
+
+#: inc/class-settings.php:397
+#: inc/class-settings.php:745
+msgid "How many votes should each user get? Enter 0 or leave empty for no limit."
+msgstr ""
+
+#: inc/class-settings.php:414
+msgid "Select a page..."
+msgstr ""
+
+#: inc/class-settings.php:534
+msgid "Important!"
+msgstr ""
+
+#: inc/class-settings.php:535
+msgid "You need to <a href=\"%s\">set an archive page</a> for Simple Feature Requests, under the \"General\" tab."
+msgstr ""
+
+#: inc/class-settings.php:559
+msgid "The default status for when a request is first created."
+msgstr ""
+
+#: inc/class-settings.php:567
+msgid "Custom Statuses"
+msgstr ""
+
+#: inc/class-settings.php:568
+msgid "Register additional custom statuses for requests."
+msgstr ""
+
+#: inc/class-settings.php:661
+msgid "Admin Email"
+msgstr ""
+
+#: inc/class-settings.php:662
+msgid "Admin notifications will be sent to this email address."
+msgstr ""
+
+#: inc/class-settings.php:668
+msgid "From Email"
+msgstr ""
+
+#: inc/class-settings.php:669
+msgid "Notifications will be sent \"from\" this email address."
+msgstr ""
+
+#: inc/class-settings.php:701
+#: inc/class-settings.php:715
+#: inc/class-settings.php:729
+msgid "Voter"
+msgstr ""
+
+#: inc/class-settings.php:751
+msgid "Reimburse Votes"
+msgstr ""
+
+#: inc/class-settings.php:752
+msgid "Reimburse votes to a user when a request they voted on has any of the selected statuses."
+msgstr ""
+
+#: inc/class-settings.php:779
+msgid "Max Upload Size"
+msgstr ""
+
+#: inc/class-settings.php:780
+msgid "Define the max filesize for attachments in MB. Default is 10MB."
+msgstr ""
+
+#: inc/class-settings.php:790
+msgid "Labels"
+msgstr ""
+
+#: inc/class-settings.php:796
+msgid "Single Request Label"
+msgstr ""
+
+#: inc/class-settings.php:797
+msgid "Change \"request\" to a label of your choice."
+msgstr ""
+
+#: inc/class-settings.php:803
+msgid "Plural Request Label"
+msgstr ""
+
+#: inc/class-settings.php:804
+msgid "Change \"requests\" to a label of your choice."
+msgstr ""
+
+#: inc/class-settings.php:820
+msgid "Latest Filter"
+msgstr ""
+
+#: inc/class-settings.php:821
+msgid "Show option to sort requests by latest."
+msgstr ""
+
+#: inc/class-settings.php:827
+msgid "Top Filter"
+msgstr ""
+
+#: inc/class-settings.php:828
+msgid "Show option to sort requests by top."
+msgstr ""
+
+#: inc/class-settings.php:834
+msgid "My Requests Filter"
+msgstr ""
+
+#: inc/class-settings.php:835
+msgid "Show option to show only user's own requests."
+msgstr ""
+
+#: inc/class-settings.php:841
+msgid "Status Filter"
+msgstr ""
+
+#: inc/class-settings.php:842
+msgid "Show option to filter requests by status."
+msgstr ""
+
+#: inc/class-settings.php:848
+msgid "Boards Filter"
+msgstr ""
+
+#: inc/class-settings.php:849
+msgid "Show option to filter requests by board."
+msgstr ""
+
+#: inc/class-shortcodes.php:40
+msgid "Please select this page (%s) as the <strong>Archive Page</strong> in <a href=\"%s\">the settings</a>, under the \"General\" tab."
+msgstr ""
+
+#: inc/class-shortcodes.php:118
+msgid "Please set a \"type\" parameter for this widget."
+msgstr ""
+
+#: inc/class-shortcodes.php:139
+msgid "Sorry, the taxonomy \"%s\" does not exist."
+msgstr ""
+
+#: inc/class-shortcodes.php:190
+msgid "There's nothing on the roadmap right now."
+msgstr ""
+
+#: inc/class-shortcodes.php:239
+msgid "View all &rarr;"
+msgstr ""
+
+#: inc/class-submission.php:37
+msgid "There was an error submitting your request."
+msgstr ""
+
+#: inc/class-submission.php:41
+msgid "Please enter a request title."
+msgstr ""
+
+#: inc/class-submission.php:45
+msgid "Please enter a request description."
+msgstr ""
+
+#: inc/class-submission.php:78
+msgid "Sorry, there was an issue adding that request. Please try again."
+msgstr ""
+
+#: inc/class-submission.php:122
+msgid "Please select a %s."
+msgstr ""
+
+#: inc/class-template-methods.php:24
+msgid "Latest"
+msgstr ""
+
+#: inc/class-template-methods.php:30
+msgid "Top"
+msgstr ""
+
+#: inc/class-template-methods.php:42
+msgid "My %s"
+msgstr ""
+
+#: inc/class-template-methods.php:111
+msgid "Any"
+msgstr ""
+
+#: inc/class-template-methods.php:235
+msgid "shared this idea"
+msgstr ""
+
+#: inc/class-template-methods.php:268
+msgid "%d comment"
+msgid_plural "%d comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/class-template-methods.php:319
+msgid "&larr; All %s"
+msgstr ""
+
+#: inc/class-template-methods.php:460
+msgid "Select a %s..."
+msgstr ""
+
+#: inc/class-template-methods.php:499
+msgid "Drop attachment here, or <span class=\"dz-message-emphasis\">click to upload</span>"
+msgstr ""
+
+#: inc/class-template-methods.php:499
+msgid "Max size"
+msgstr ""
+
+#: inc/class-user.php:72
+msgid "There was an error logging you in."
+msgstr ""
+
+#: inc/class-user.php:201
+msgid "You need to login to vote for a feature."
+msgstr ""
+
+#: inc/class-user.php:207
+msgid "You have already voted for this feature."
+msgstr ""
+
+#: inc/class-user.php:217
+msgid "Sorry, you do not have any votes remaining."
+msgstr ""
+
+#: inc/class-user.php:228
+msgid "There was an error adding your vote."
+msgstr ""
+
+#: inc/class-user.php:252
+msgid "You need to login to remove a vote from a feature."
+msgstr ""
+
+#: inc/class-user.php:258
+msgid "You have not voted for this feature yet."
+msgstr ""
+
+#: inc/class-user.php:268
+msgid "You cannot remove a vote for your own request."
+msgstr ""
+
+#: inc/class-user.php:281
+msgid "There was an error removing your vote."
+msgstr ""
+
+#: inc/class-user.php:326
+#: inc/class-user.php:374
+msgid "Please enter an email."
+msgstr ""
+
+#: inc/class-user.php:331
+#: inc/class-user.php:379
+msgid "Please enter a password."
+msgstr ""
+
+#: inc/class-user.php:369
+msgid "Please enter a username."
+msgstr ""
+
+#: inc/class-user.php:384
+msgid "Please enter a repeat password."
+msgstr ""
+
+#: inc/class-user.php:389
+msgid "Your passwords did not match."
+msgstr ""
+
+#: inc/class-user.php:401
+msgid "That username has already been registered."
+msgstr ""
+
+#: inc/class-user.php:406
+msgid "That email has already been registered."
+msgstr ""
+
+#: inc/class-user.php:424
+msgid "There was an issue registering your account. Please try again."
+msgstr ""
+
+#: inc/functions.php:16
+msgid "Pending"
+msgstr ""
+
+#: inc/functions.php:17
+msgid "Published"
+msgstr ""
+
+#: inc/functions.php:18
+msgid "Under Review"
+msgstr ""
+
+#: inc/functions.php:19
+msgid "Planned"
+msgstr ""
+
+#: inc/functions.php:20
+msgid "Started"
+msgstr ""
+
+#: inc/functions.php:21
+msgid "Completed"
+msgstr ""
+
+#: inc/functions.php:22
+msgid "Declined"
+msgstr ""
+
+#: inc/functions.php:50
+msgid "The %s is pending approval from an admin."
+msgstr ""
+
+#: inc/functions.php:51
+msgid "The %s is now published on the site."
+msgstr ""
+
+#: inc/functions.php:52
+msgid "The %s is being considered for development."
+msgstr ""
+
+#: inc/functions.php:53
+msgid "Good news! The %s has been planned for development."
+msgstr ""
+
+#: inc/functions.php:54
+msgid "Good news! The %s has been started."
+msgstr ""
+
+#: inc/functions.php:55
+msgid "Good news! The %s has now been completed."
+msgstr ""
+
+#: inc/functions.php:56
+msgid "Sorry, the %s has been declined."
+msgstr ""
+
+#: simple-feature-requests.php:297
+msgid "Available in Pro"
+msgstr ""
+
+#: templates/archive/submission-form.php:24
+msgid "Your %s"
+msgstr ""
+
+#: templates/archive/submission-form.php:27
+msgid "Enter your %s..."
+msgstr ""
+
+#: templates/archive/submission-form.php:40
+msgid "Description"
+msgstr ""
+
+#: templates/archive/submission-form.php:54
+msgid "Submit"
+msgstr ""
+
+#: templates/archive/submission-form.php:60
+msgid "Vote for an existing %s (%s)"
+msgstr ""
+
+#: templates/archive/submission-form.php:62
+msgid "Post a new %s"
+msgstr ""
+
+#: templates/components/login-form-fields.php:16
+msgid "Don't have an account?"
+msgstr ""
+
+#: templates/components/login-form-fields.php:18
+#: templates/sidebar/login.php:26
+msgid "Register"
+msgstr ""
+
+#: templates/components/login-form-fields.php:22
+msgid "Already have an account?"
+msgstr ""
+
+#: templates/components/login-form-fields.php:24
+#: templates/sidebar/login.php:25
+msgid "Login"
+msgstr ""
+
+#: templates/components/login-form-fields.php:30
+#: templates/components/login-form-fields.php:35
+msgid "Username"
+msgstr ""
+
+#: templates/components/login-form-fields.php:35
+msgid "Email"
+msgstr ""
+
+#: templates/components/login-form-fields.php:40
+msgid "Password"
+msgstr ""
+
+#: templates/components/login-form-fields.php:45
+msgid "Repeat Password"
+msgstr ""
+
+#: templates/loop/no-requests-found.php:11
+msgid "Sorry, no %s were found."
+msgstr ""
+
+#: templates/photoswipe.php:19
+msgid "Close (Esc)"
+msgstr ""
+
+#: templates/photoswipe.php:21
+msgid "Share"
+msgstr ""
+
+#: templates/photoswipe.php:23
+msgid "Toggle fullscreen"
+msgstr ""
+
+#: templates/photoswipe.php:25
+msgid "Zoom in/out"
+msgstr ""
+
+#: templates/photoswipe.php:40
+msgid "Previous (arrow left)"
+msgstr ""
+
+#: templates/photoswipe.php:43
+msgid "Next (arrow right)"
+msgstr ""
+
+#: templates/sidebar/login.php:36
+msgid "Hey, %s."
+msgstr ""
+
+#: templates/sidebar/login.php:38
+msgid "Logout"
+msgstr ""
+
+#: templates/sidebar/top-requests.php:19
+msgid "Top %s"
+msgstr ""
+
+#: templates/sidebar/top-requests.php:25
+msgid "%d Vote"
+msgid_plural "%d Votes"
+msgstr[0] ""
+msgstr[1] ""

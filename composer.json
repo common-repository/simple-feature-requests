@@ -1,0 +1,60 @@
+{
+    "name": "mindsize/simple-feature-requests",
+    "homepage": "https://simplefeaturerequests.com",
+    "description": "Collect and manage user feedback using your existing WordPress website. Prioritize the product features important to you and your customers.",
+    "type": "wordpress-plugin",
+    "support": {
+        "docs": "https://docs.simplefeaturerequests.com",
+        "issues": "https://simplefeaturerequests.com/contact"
+    },
+    "authors": [
+        {
+            "name": "Mindsize",
+            "email": "contact@mindsize.com",
+            "homepage": "https://mindsize.com",
+            "role": "Owner"
+        },
+        {
+            "name": "Patrick Garman",
+            "email": "patrick.garman@mindsize.com",
+            "homepage": "https://mindsize.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Ben Lobaugh",
+            "email": "ben.lobaugh@mindsize.com",
+            "homepage": "https://mindsize.com",
+            "role": "Developer"
+        }
+    ],
+    "repositories": [
+        {
+          "type": "vcs",
+          "url": "https://github.com/blobaugh/wp-eloquent.git"
+        }
+      ],
+    "autoload": {
+        "classmap": [
+            "inc/"
+        ],
+        "files": [
+            "inc/functions.php"
+        ],
+        "exclude-from-classmap": [
+            "inc/vendor/freemius"
+        ]
+    },
+    "optimize-autoloader": true,
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    },
+    "require": {
+        "tareq1988/wp-eloquent": "dev-master",
+        "deliciousbrains/wp-background-processing": "^1.3"
+    }
+}
